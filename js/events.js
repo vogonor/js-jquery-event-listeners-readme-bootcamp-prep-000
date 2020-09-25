@@ -19,7 +19,7 @@ function pressIt() {
   $("form").on("keyDown", function(key) {
     
      if (key.which == 71){
-       $("input").submit()
+       $("input:first").submit()
         alert("You have pressed the G key");
       }
   })
